@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_04_224051) do
+ActiveRecord::Schema.define(version: 2021_03_06_055923) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 2021_03_04_224051) do
     t.string "linkedin_url"
     t.string "twitter_handle"
     t.string "personal_website_url"
-    t.string "resume"
+    t.string "resume_url"
     t.string "github_url"
     t.string "image_url"
     t.datetime "created_at", precision: 6, null: false
