@@ -1,5 +1,8 @@
 class Api::StudentsController < ApplicationController
-  
+
+  before_action :authenticate_student, except: [:create, :show, :index]
+
+
   def create
     student = Student.new(
       first_name: params[:first_name],
@@ -55,7 +58,27 @@ class Api::StudentsController < ApplicationController
       @student.resume_url = params[:resume_url] || @student.resume_url
       @student.github_url = params[:github_url] || @student.github_url
       @student.image_url = params[:image_url] || @student.image_url
+
+      if @student.save
+        render "show.json.jb"
+      else
+        render json: { errors: @student.errors.full_messages }, status: 422
+      end
+    else
+      render json: { errors: "unauthorized"}, status: 401
     end
-    
   end
+
+  def destroy
+    student_id = params[:id]
+    @student = Student.find_by(id: student_id)
+
+    if @student.id == current_student.id
+      @student.destroy
+      render json: { message: "Student succesfully deleted!"}
+    else 
+      render json: { errors: @student.errors.full_messages }, status: :bad_request
+    end
+  end
+
 end
