@@ -12,3 +12,29 @@ Student.create(last_name:"Restivo",first_name:"Antonio",email:"nonebesides1@yaho
 Student.create(last_name:"Rezac",first_name:"Chris",email:"rezacchristopher@gmail.com",phone_number:"101-0101",short_bio:"Software Engineer with a passion for learning and helping others.",linkedin_url:"https://www.linkedin.com/in/chris-rezac/",twitter_handle:"chris twit",personal_website_url:"chrisrezac.github.io",resume_url:"https://www.linkedin.com/in/chris-rezac/",github_url:"https://github.com/chrisrezac",image_url:"https://media-exp1.licdn.com/dms/image/C4E03AQE37SfKU7WUMg/profile-displayphoto-shrink_200_200/0/1608144693601?e=1620864000&v=beta&t=PDiSPd5CxiU9qVpdLmqxj9cRbO8Kd-hQ4P2v7R19x40",password:"password",password_confirmation:"password")
 Student.create(last_name:"Robinson",first_name:"Sarah",email:"sarahaleesia1@gmail.com",phone_number:"123-1234",short_bio:"I wrote my first piece of code 5 years ago in a computer-science course, but ended up taking a different route as a former Store Support Supervisor. I have extensive experience in customer service, time management, and multitasking. As I enter the world of web development, I bring essential skills like collaboration, problem solving, and communication to my next company.",linkedin_url:"https://www.linkedin.com/in/sarahrob/",twitter_handle:"sarah twit",personal_website_url:"sarahrobinson-1235.github.io",resume_url:"https://www.linkedin.com/in/sarahrob/",github_url:"https://github.com/sarahrobinson-1235",image_url:"https://media-exp1.licdn.com/dms/image/C4D03AQHKuOMhjrjIFw/profile-displayphoto-shrink_200_200/0/1607819452104?e=1620864000&v=beta&t=OtlLT-SkFCBkF7eUw1H4k0Y-UvCe0ye6LjZYHxGkb8Q",password:"password",password_confirmation:"password")
 Student.create(last_name:"Young",first_name:"Rebecca",email:"r.young1025@gmail.com",phone_number:"212-2121",short_bio:"Full stack web developer with a passion for accessibility, education, and music.",linkedin_url:"https://www.linkedin.com/in/raebex/",twitter_handle:"rebecca twit",personal_website_url:"github.com/raebex/",resume_url:"https://www.linkedin.com/in/raebex/",github_url:"github.com/raebex/",image_url:"https://media-exp1.licdn.com/dms/image/C4E35AQG-yiN3HqVf1w/profile-framedphoto-shrink_200_200/0/1610661381473?e=1615320000&v=beta&t=tmv7dOGaAWaWMSoq-07bHeLI0maftceDIvFWitgQhk0",password:"password",password_confirmation:"password")
+
+
+Experience.create(
+  student_id: 1,
+  start_date: "2021-01-01",
+  end_date: "2021-01-02",
+  job_title: "Job",
+  company_name: "company",
+  details: "work",
+)
+Experience.create(
+  student_id: 2,
+  start_date: "2021-01-03",
+  end_date: "2021-01-04",
+  job_title: "big time job",
+  company_name: "super duper company",
+  details: "workin hard",
+)
+Experience.create(
+  student_id: 3,
+  start_date: "2021-01-05",
+  end_date: "2021-01-06",
+  job_title: "whatever",
+  company_name: "ya know",
+  details: "ugh",
+)
