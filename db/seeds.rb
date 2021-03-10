@@ -38,3 +38,133 @@ Experience.create(
   company_name: "ya know",
   details: "ugh",
 )
+
+Capstone.create(
+  name:"Friends",
+  description:"social app",
+  url:"https://github.com/davidcalhoun4?tab=repositories",screenshot:"",
+  student_id:1
+)
+Capstone.create(
+  name:"elance", 
+  description:"freelance dancers", 
+  url:"https://github.com/davidcalhoun4", 
+  screenshot: "", 
+  student_id:2
+)
+Capstone.create(
+  name:"Pain Tracker", 
+  description:"tracks pain", 
+  url:"https://github.com/evansmackenzie", 
+  screenshot:"", 
+  student_id:3
+)
+Capstone.create(
+  name:"Media Recommendations", 
+  description: "Media Recommendations", 
+  url: "https://github.com/ngencokamin", 
+  screenshot:"", 
+  student_id: 4
+)
+Capstone.create(
+  name: "SocialRecoverWE", 
+  description: "help for pandemic-related social anxiety", url: "https://github.com/christinaheadley", 
+  screenshot:"", 
+  student_id:5
+)
+Capstone.create(
+  name:"Dungeon Master Leveling", 
+  description:"Dungeon Master Leveling", 
+  url: "https://github.com/thk12205", 
+  screenshot:"", 
+  student_id: 6
+)
+Capstone.create(name: "Chicago Live Music", 
+  description: "see live music in Chicago", 
+  url: "https://github.com/seanmilomaher", 
+  screenshot:"", 
+  student_id: 7
+)
+Capstone.create(
+  name:"go natural", 
+  description:"green resources", 
+  url:"charlottemoche.github.io", 
+  screenshot:"", 
+  student_id: 8
+)
+Capstone.create(
+  name:"Post Stroke Health Monitoring", 
+  description: "monitoring for those recovering from strokes",url: "https://github.com/antoniorestivo", 
+  screenshot:"", 
+  student_id: 9
+)
+Capstone.create(
+  name: "Pet Spot", 
+  description: "pets", 
+  url: "https://github.com/chrisrezac", 
+  screenshot: "", 
+  student_id: 10
+)
+Capstone.create(
+  name: "Affirmations", 
+  description: "affirmations", 
+  url: "https://github.com/sarahrobinson-1235", 
+  screenshot: "", 
+  student_id: 11
+)
+Capstone.create(
+  name:"Food Share", 
+  description: "order and sell food", 
+  url: "github.com/raebex/", 
+  screenshot: "", 
+  student_id: 12
+)
+
+Skill.create(
+  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  student_id: 1
+)
+Skill.create(
+  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  student_id: 2
+)
+Skill.create(
+  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  student_id: 3
+)
+Skill.create(
+  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  student_id: 4
+)
+Skill.create(
+  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  student_id: 5
+)
+Skill.create(
+  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  student_id: 6
+)
+Skill.create(
+  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  student_id: 7
+)
+Skill.create(
+  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  student_id: 8
+)
+Skill.create(
+  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  student_id: 9
+)
+Skill.create(
+  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  student_id: 10
+)
+Skill.create(
+  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  student_id: 11
+)
+Skill.create(
+  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  student_id: 12
+)
