@@ -463,50 +463,50 @@ Capstone.create(
 )
 
 Skill.create(
-  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
   student_id: 1
 )
 Skill.create(
-  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
   student_id: 2
 )
 Skill.create(
-  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
   student_id: 3
 )
 Skill.create(
-  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
   student_id: 4
 )
 Skill.create(
-  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
   student_id: 5
 )
 Skill.create(
-  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
   student_id: 6
 )
 Skill.create(
-  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
   student_id: 7
 )
 Skill.create(
-  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
   student_id: 8
 )
 Skill.create(
-  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
   student_id: 9
 )
 Skill.create(
-  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
   student_id: 10
 )
 Skill.create(
-  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
   student_id: 11
 )
 Skill.create(
-  skill_name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
   student_id: 12
 )
