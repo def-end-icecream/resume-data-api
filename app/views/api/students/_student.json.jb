@@ -1,0 +1,14 @@
+{
+  id: student.id,
+  first_name: student.first_name,
+  last_name: student.last_name,
+  email: student.email,
+  phone_number: student.phone_number,
+  short_bio: student.short_bio,
+  linkedin_url: student.linkedin_url,
+  twitter_handle: student.twitter_handle,
+  personal_website_url: student.personal_website_url,
+  resume_url: student.resume_url,
+  github_url: student.github_url,
+  image_url: student.image_url
+}
