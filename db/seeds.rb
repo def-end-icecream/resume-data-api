@@ -143,7 +143,7 @@ Student.create(
   phone_number: "101-0101", 
   short_bio: "Software Engineer with a passion for learning and helping others.",
   linkedin_url: "https://www.linkedin.com/in/chris-rezac/", 
-  twitter_handle: "	@ArianaGrande", 
+  twitter_handle: "@ArianaGrande", 
   personal_website_url: "chrisrezac.github.io", 
   resume_url: "https://www.linkedin.com/in/chris-rezac/", 
   github_url: "https://github.com/chrisrezac", 
@@ -381,22 +381,23 @@ Education.create(
 Capstone.create(
   name:"Friends",
   description:"social app",
-  url:"https://github.com/davidcalhoun4?tab=repositories",screenshot:"",
-  student_id:1
+  url:"https://github.com/davidcalhoun4?tab=repositories", 
+  screenshot:"",
+  student_id: 1
 )
 Capstone.create(
   name:"elance", 
   description:"freelance dancers", 
   url:"https://github.com/davidcalhoun4", 
   screenshot: "", 
-  student_id:2
+  student_id: 2
 )
 Capstone.create(
   name:"Pain Tracker", 
   description:"tracks pain", 
   url:"https://github.com/evansmackenzie", 
   screenshot:"", 
-  student_id:3
+  student_id: 3
 )
 Capstone.create(
   name:"Media Recommendations", 
@@ -407,9 +408,10 @@ Capstone.create(
 )
 Capstone.create(
   name: "SocialRecoverWE", 
-  description: "help for pandemic-related social anxiety", url: "https://github.com/christinaheadley", 
+  description: "help for pandemic-related social anxiety", 
+  url: "https://github.com/christinaheadley", 
   screenshot:"", 
-  student_id:5
+  student_id: 5
 )
 Capstone.create(
   name:"Dungeon Master Leveling", 
@@ -433,7 +435,8 @@ Capstone.create(
 )
 Capstone.create(
   name:"Post Stroke Health Monitoring", 
-  description: "monitoring for those recovering from strokes",url: "https://github.com/antoniorestivo", 
+  description: "monitoring for those recovering from strokes", 
+  url: "https://github.com/antoniorestivo", 
   screenshot:"", 
   student_id: 9
 )
