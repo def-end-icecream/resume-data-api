@@ -1,5 +1,7 @@
 class Api::SkillsController < ApplicationController
 
+  before_action :authenticate_student, except: [:show, :index]
+
   def index
     @skills = Skill.all
     render "index.json.jb"
@@ -13,7 +15,7 @@ class Api::SkillsController < ApplicationController
   def create
     @skill = Skill.new(
       name: params[:name],
-      student_id: params[:student_id]
+      student_id: current_student.id
     )
     if @skill.save
       render "show.json.jb"
@@ -24,21 +26,28 @@ class Api::SkillsController < ApplicationController
   
   def update
     @skill = Skill.find_by(id: params[:id])
-    @skill.name = params[:name] || @skill.name
-    @skill.student_id = params[:student_id] || @skill.student_id
-    if @skill.save
-      render "show.json.jb"
+    if current_student.id == @skill.student_id
+      @skill.name = params[:name] || @skill.name
+      @skill.student_id = current_student.id
+      if @skill.save
+        render "show.json.jb"
+      else
+        render json: { errors: @skill.errors.full_messages }, status: :unprocessable_entity
+      end
     else
-      render json: { errors: @skill.errors.full_messages }, status: :unprocessable_entity
+      render json: {}, status: :unauthorized
     end
 
-    def destroy
-      @skill = Skill.find_by(id: params[:id])
-      if @skill.destroy
-        render json: {message: "Skill deleted"}
-      else
-        render json: {message: "Not authorized"}
-      end
+  end
+
+  def destroy
+    @skill = Skill.find_by(id: params[:id])
+    if current_student.id == @skill.student_id
+      @skill.destroy
+      render json: { message: "Skill successfully destroyed" }
+    else
+      render json: {}, status: :unauthorized
     end
   end
+
 end
