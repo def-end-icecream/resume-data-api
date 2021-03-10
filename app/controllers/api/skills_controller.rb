@@ -1,4 +1,5 @@
 class Api::SkillsController < ApplicationController
+
   def index
     @skills = Skill.all
     render "index.json.jb"
@@ -11,7 +12,7 @@ class Api::SkillsController < ApplicationController
 
   def create
     @skill = Skill.new(
-      skill_name: params[:skill_name]
+      skill_name: params[:skill_name],
       student_id: params[:student_id]
     )
     if @skill.save
@@ -28,7 +29,7 @@ class Api::SkillsController < ApplicationController
     if @skill.save
       render json "show.json.jb"
     else
-      render json: { errors: @post.errors.full_messages }, status: :unprocessable_entity
+      render json: { errors: @skill.errors.full_messages }, status: :unprocessable_entity
     end
 
     def destroy
@@ -38,8 +39,6 @@ class Api::SkillsController < ApplicationController
       else
         render json: {message: "Not authorized"}
       end
-    end
-      
     end
   end
 end
