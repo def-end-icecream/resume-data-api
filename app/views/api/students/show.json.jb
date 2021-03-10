@@ -9,7 +9,7 @@ student[:experiences] = @student.experiences.map do |experience|
 end
 
 student[:educations] = @student.educations.map do |education|
-  render partial: "api/educations/education.experience.json.jb", locals: { education: education }
+  render partial: "api/educations/education.json.jb", locals: { education: education }
 end 
 
 student[:capstones] = @student.capstones.map do |capstone|
