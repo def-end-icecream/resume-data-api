@@ -14,30 +14,32 @@ Student.create(last_name:"Robinson",first_name:"Sarah",email:"sarahaleesia1@gmai
 Student.create(last_name:"Young",first_name:"Rebecca",email:"r.young1025@gmail.com",phone_number:"212-2121",short_bio:"Full stack web developer with a passion for accessibility, education, and music.",linkedin_url:"https://www.linkedin.com/in/raebex/",twitter_handle:"rebecca twit",personal_website_url:"github.com/raebex/",resume_url:"https://www.linkedin.com/in/raebex/",github_url:"github.com/raebex/",image_url:"https://media-exp1.licdn.com/dms/image/C4E35AQG-yiN3HqVf1w/profile-framedphoto-shrink_200_200/0/1610661381473?e=1615320000&v=beta&t=tmv7dOGaAWaWMSoq-07bHeLI0maftceDIvFWitgQhk0",password:"password",password_confirmation:"password")
 
 
-Experience.create(
-  student_id: 1,
-  start_date: "2021-01-01",
-  end_date: "2021-01-02",
-  job_title: "Job",
-  company_name: "company",
-  details: "work",
-)
-Experience.create(
-  student_id: 2,
-  start_date: "2021-01-03",
-  end_date: "2021-01-04",
-  job_title: "big time job",
-  company_name: "super duper company",
-  details: "workin hard",
-)
-Experience.create(
-  student_id: 3,
-  start_date: "2021-01-05",
-  end_date: "2021-01-06",
-  job_title: "whatever",
-  company_name: "ya know",
-  details: "ugh",
-)
+Experience.create(start_date:"2016-01-01 00:00:00",end_date:"2021-01-01 00:00:00",job_title:"Web Developer",company_name:"Actualize",details:"Build full-stack applications",student_id:"1")
+Experience.create(start_date:"2017-02-01 00:00:00",end_date:"2021-02-01 00:00:00",job_title:"Web Developer",company_name:"Actualize",details:"Build full-stack applications",student_id:"2")
+Experience.create(start_date:"2018-03-01 00:00:00",end_date:"2021-03-01 00:00:00",job_title:"Web Developer",company_name:"Actualize",details:"Build full-stack applications",student_id:"3")
+Experience.create(start_date:"2016-04-01 00:00:00",end_date:"2021-04-01 00:00:00",job_title:"Web Developer",company_name:"Actualize",details:"Build full-stack applications",student_id:"4")
+Experience.create(start_date:"2017-05-01 00:00:00",end_date:"2021-05-01 00:00:00",job_title:"Web Developer",company_name:"Actualize",details:"Build full-stack applications",student_id:"5")
+Experience.create(start_date:"2018-06-01 00:00:00",end_date:"2021-06-01 00:00:00",job_title:"Web Developer",company_name:"Actualize",details:"Build full-stack applications",student_id:"6")
+Experience.create(start_date:"2019-07-01 00:00:00",end_date:"2021-07-01 00:00:00",job_title:"Web Developer",company_name:"Actualize",details:"Build full-stack applications",student_id:"7")
+Experience.create(start_date:"2016-08-01 00:00:00",end_date:"2021-08-01 00:00:00",job_title:"Web Developer",company_name:"Actualize",details:"Build full-stack applications",student_id:"8")
+Experience.create(start_date:"2017-09-01 00:00:00",end_date:"2021-09-01 00:00:00",job_title:"Web Developer",company_name:"Actualize",details:"Build full-stack applications",student_id:"9")
+Experience.create(start_date:"2018-10-01 00:00:00",end_date:"2021-10-01 00:00:00",job_title:"Web Developer",company_name:"Actualize",details:"Build full-stack applications",student_id:"10")
+Experience.create(start_date:"2017-11-01 00:00:00",end_date:"2021-11-01 00:00:00",job_title:"Web Developer",company_name:"Actualize",details:"Build full-stack applications",student_id:"11")
+Experience.create(start_date:"2018-12-01 00:00:00",end_date:"2021-12-01 00:00:00",job_title:"Web Developer",company_name:"Actualize",details:"Build full-stack applications",student_id:"12")
+
+Education.create(start_date:"2017-09-01 00:00:00",end_date:"2021-09-01 00:00:00",degree:"Computer Science",university_name:"Actualize",details:"Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap",student_id:"1")
+Education.create(start_date:"2018-10-01 00:00:00",end_date:"2021-10-01 00:00:00",degree:"Computer Science",university_name:"Actualize",details:"Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap",student_id:"2")
+Education.create(start_date:"2017-11-01 00:00:00",end_date:"2021-11-01 00:00:00",degree:"Computer Science",university_name:"Actualize",details:"Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap",student_id:"3")
+Education.create(start_date:"2018-12-01 00:00:00",end_date:"2021-12-01 00:00:00",degree:"Computer Science",university_name:"Actualize",details:"Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap",student_id:"4")
+Education.create(start_date:"2016-01-01 00:00:00",end_date:"2021-01-01 00:00:00",degree:"Computer Science",university_name:"Actualize",details:"Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap",student_id:"5")
+Education.create(start_date:"2017-02-01 00:00:00",end_date:"2021-02-01 00:00:00",degree:"Computer Science",university_name:"Actualize",details:"Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap",student_id:"6")
+Education.create(start_date:"2018-03-01 00:00:00",end_date:"2021-03-01 00:00:00",degree:"Computer Science",university_name:"Actualize",details:"Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap",student_id:"7")
+Education.create(start_date:"2016-04-01 00:00:00",end_date:"2021-04-01 00:00:00",degree:"Computer Science",university_name:"Actualize",details:"Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap",student_id:"8")
+Education.create(start_date:"2017-05-01 00:00:00",end_date:"2021-05-01 00:00:00",degree:"Computer Science",university_name:"Actualize",details:"Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap",student_id:"9")
+Education.create(start_date:"2018-06-01 00:00:00",end_date:"2021-06-01 00:00:00",degree:"Computer Science",university_name:"Actualize",details:"Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap",student_id:"10")
+Education.create(start_date:"2019-07-01 00:00:00",end_date:"2021-07-01 00:00:00",degree:"Computer Science",university_name:"Actualize",details:"Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap",student_id:"11")
+Education.create(start_date:"2016-08-01 00:00:00",end_date:"2021-08-01 00:00:00",degree:"Computer Science",university_name:"Actualize",details:"Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap",student_id:"12")
+
 
 Capstone.create(
   name:"Friends",
