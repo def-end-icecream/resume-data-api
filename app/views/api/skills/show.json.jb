@@ -1,1 +1,1 @@
-render partial "skill.json.jb", locals: { skill: @skill }
+render partial: "skill.json.jb", locals: { skill: @skill }
