@@ -21,9 +21,6 @@ Rails.application.routes.draw do
 
     get "skills" => "skills#index"
     get "/skills/:id" => "skills#show"
-    post "skills" => "skills#create"
-    patch "/skills" => "skills#update"
-    delete "/skills" => "skills#destroy"
 
     get "/experiences" => "experiences#index"
     get "/experiences/:id" => "experiences#show"
