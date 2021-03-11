@@ -7,7 +7,7 @@ Student.create(
   phone_number: "111-1111", 
   short_bio: "As an adept web developer with experience in a consulting environment, I understand that being a developer means being in a constant state of learning. I’ve fixed broken code that I inherited, deployed cloud servers for the first time by reading documentation, and learned Salesforce to support a client who used it. I am eager to dive further into backend development and overcome new challenges.",
   linkedin_url: "linkedin.com/in/camores", 
-  twitter_handle: "@BarackObama", 
+  twitter_handle: "BarackObama", 
   personal_website_url: "n/a", 
   resume_url: "linkedin.com/in/camores", 
   github_url: "https://github.com/davidcalhoun4?tab=repositories", 
@@ -22,7 +22,7 @@ Student.create(
   phone_number: "222-2222", 
   short_bio: "Budding full stack web developer with a passion for the arts and health.",
   linkedin_url: "linkedin.com/in/davidcalhoun4", 
-  twitter_handle: "@justinbieber", 
+  twitter_handle: "justinbieber", 
   personal_website_url: "davidcalhoun4.github.io", 
   resume_url: "linkedin.com/in/davidcalhoun4", 
   github_url: "https://github.com/davidcalhoun4", 
@@ -37,7 +37,7 @@ Student.create(
   phone_number: "333-3333", 
   short_bio: "Full stack web developer with a past life in labor and delivery/women's health nursing.",
   linkedin_url: "https://www.linkedin.com/in/mackenzieevans1/", 
-  twitter_handle: "@katyperry", 
+  twitter_handle: "katyperry", 
   personal_website_url: "n/a", 
   resume_url: "https://www.linkedin.com/in/mackenzieevans1/", 
   github_url: "https://github.com/evansmackenzie", 
@@ -52,7 +52,7 @@ Student.create(
   phone_number: "444-4444", 
   short_bio: "Passionate full-stack web developer with an eye for detail",
   linkedin_url: "https://www.linkedin.com/in/ngencokamin/", 
-  twitter_handle: "@HamillHimself", 
+  twitter_handle: "HamillHimself", 
   personal_website_url: "ngencokamin.github.io", 
   resume_url: "https://www.linkedin.com/in/ngencokamin/", 
   github_url: "https://github.com/ngencokamin", 
@@ -83,7 +83,7 @@ Student.create(
   phone_number: "666-6666", 
   short_bio: "I am an easy-going software engineer with a penchant for game design and the human experience.",
   linkedin_url: "https://www.linkedin.com/in/theodoretkim/", 
-  twitter_handle: "@rihanna", 
+  twitter_handle: "rihanna", 
   personal_website_url: "thk12205.github.io", 
   resume_url: "https://www.linkedin.com/in/theodoretkim/", 
   github_url: "https://github.com/thk12205", 
@@ -98,7 +98,7 @@ Student.create(
   phone_number: "777-7777", 
   short_bio: "something, somrthing, something",
   linkedin_url: "https://www.linkedin.com/in/sean-maher1994/", 
-  twitter_handle: "@Cristiano", 
+  twitter_handle: "Cristiano", 
   personal_website_url: "https://github.com/seanmilomaher/seanmilomaher.github.io", 
   resume_url: "https://www.linkedin.com/in/sean-maher1994/", 
   github_url: "https://github.com/seanmilomaher", 
@@ -113,7 +113,7 @@ Student.create(
   phone_number: "888-8888", 
   short_bio: "As an artist and software engineer, I enjoy problem solving and content creation. I am excited by both the visual and technical aspects of front end and back end development. Having studied both fine arts and coding, I am able to combine the two skill sets to build functional and aesthetically pleasing applications.",
   linkedin_url: "https://www.linkedin.com/in/sean-maher1994/", 
-  twitter_handle: "	@taylorswift13", 
+  twitter_handle: "taylorswift13", 
   personal_website_url: "https://github.com/charlottemoche", 
   resume_url: "https://www.linkedin.com/in/sean-maher1994/", 
   github_url: "charlottemoche.github.io", 
@@ -128,7 +128,7 @@ Student.create(
   phone_number: "999-9999", 
   short_bio: "Full stack web developer with a passion for indigenous medicine and game development.",
   linkedin_url: "https://www.linkedin.com/in/antoniorestivo/", 
-  twitter_handle: "@ladygaga", 
+  twitter_handle: "ladygaga", 
   personal_website_url: "antoniorestivo.github.io", 
   resume_url: "https://www.linkedin.com/in/antoniorestivo/", 
   github_url: "https://github.com/antoniorestivo", 
@@ -143,7 +143,7 @@ Student.create(
   phone_number: "101-0101", 
   short_bio: "Software Engineer with a passion for learning and helping others.",
   linkedin_url: "https://www.linkedin.com/in/chris-rezac/", 
-  twitter_handle: "	@ArianaGrande", 
+  twitter_handle: "ArianaGrande", 
   personal_website_url: "chrisrezac.github.io", 
   resume_url: "https://www.linkedin.com/in/chris-rezac/", 
   github_url: "https://github.com/chrisrezac", 
@@ -158,7 +158,7 @@ Student.create(
   phone_number: "123-1234", 
   short_bio: "I wrote my first piece of code 5 years ago in a computer-science course, but ended up taking a different route as a former Store Support Supervisor. I have extensive experience in customer service, time management, and multitasking. As I enter the world of web development, I bring essential skills like collaboration, problem solving, and communication to my next company.",
   linkedin_url: "https://www.linkedin.com/in/sarahrob/", 
-  twitter_handle: "@KimKardashian", 
+  twitter_handle: "KimKardashian", 
   personal_website_url: "sarahrobinson-1235.github.io", 
   resume_url: "https://www.linkedin.com/in/sarahrob/", 
   github_url: "https://github.com/sarahrobinson-1235", 
@@ -173,7 +173,7 @@ Student.create(
   phone_number: "212-2121", 
   short_bio: "Full stack web developer with a passion for accessibility, education, and music.",
   linkedin_url: "https://www.linkedin.com/in/raebex/", 
-  twitter_handle: "@narendramodi", 
+  twitter_handle: "narendramodi", 
   personal_website_url: "github.com/raebex/", 
   resume_url: "https://www.linkedin.com/in/raebex/", 
   github_url: "github.com/raebex/", 
@@ -381,22 +381,23 @@ Education.create(
 Capstone.create(
   name:"Friends",
   description:"social app",
-  url:"https://github.com/davidcalhoun4?tab=repositories",screenshot:"",
-  student_id:1
+  url:"https://github.com/davidcalhoun4?tab=repositories", 
+  screenshot:"",
+  student_id: 1
 )
 Capstone.create(
   name:"elance", 
   description:"freelance dancers", 
   url:"https://github.com/davidcalhoun4", 
   screenshot: "", 
-  student_id:2
+  student_id: 2
 )
 Capstone.create(
   name:"Pain Tracker", 
   description:"tracks pain", 
   url:"https://github.com/evansmackenzie", 
   screenshot:"", 
-  student_id:3
+  student_id: 3
 )
 Capstone.create(
   name:"Media Recommendations", 
@@ -407,9 +408,10 @@ Capstone.create(
 )
 Capstone.create(
   name: "SocialRecoverWE", 
-  description: "help for pandemic-related social anxiety", url: "https://github.com/christinaheadley", 
+  description: "help for pandemic-related social anxiety", 
+  url: "https://github.com/christinaheadley", 
   screenshot:"", 
-  student_id:5
+  student_id: 5
 )
 Capstone.create(
   name:"Dungeon Master Leveling", 
@@ -433,7 +435,8 @@ Capstone.create(
 )
 Capstone.create(
   name:"Post Stroke Health Monitoring", 
-  description: "monitoring for those recovering from strokes",url: "https://github.com/antoniorestivo", 
+  description: "monitoring for those recovering from strokes", 
+  url: "https://github.com/antoniorestivo", 
   screenshot:"", 
   student_id: 9
 )
