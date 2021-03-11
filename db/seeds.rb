@@ -553,6 +553,7 @@ Capstone.create(
   url:"https://github.com/ngencokamin", 
   screenshot:"https://media.timeout.com/images/105658195/image.jpg",
   student_id: 4
+)
 
 Skill.create(
   name: "Ruby", 
