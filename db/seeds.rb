@@ -382,83 +382,83 @@ Capstone.create(
   name:"Friends",
   description:"social app",
   url:"https://github.com/davidcalhoun4?tab=repositories", 
-  screenshot:"",
+  screenshot:"https://cdn.shopify.com/s/files/1/0054/4371/5170/products/FiGPiN_360HelloKittySANRIOPIN.png?v=1584657837",
   student_id: 1
 )
 Capstone.create(
   name:"elance", 
   description:"freelance dancers", 
   url:"https://github.com/davidcalhoun4", 
-  screenshot: "", 
+  screenshot: "https://www.honolulumagazine.com/wp-content/uploads/data-import/987cb9b4/HelloKittyGirl.jpg", 
   student_id: 2
 )
 Capstone.create(
   name:"Pain Tracker", 
   description:"tracks pain", 
   url:"https://github.com/evansmackenzie", 
-  screenshot:"", 
+  screenshot:"https://cms.qz.com/wp-content/uploads/2014/09/hk.png?quality=75&strip=all&w=350&h=395&crop=1", 
   student_id: 3
 )
 Capstone.create(
   name:"Media Recommendations", 
   description: "Media Recommendations", 
   url: "https://github.com/ngencokamin", 
-  screenshot:"", 
+  screenshot:"https://cdn.webshopapp.com/shops/103628/files/334323284/hello-kitty-hello-kitty-sexy-pink.jpg", 
   student_id: 4
 )
 Capstone.create(
   name: "SocialRecoverWE", 
   description: "help for pandemic-related social anxiety", 
   url: "https://github.com/christinaheadley", 
-  screenshot:"", 
+  screenshot:"https://cdn.vox-cdn.com/thumbor/IbQcwgj46U5AeISoyGYI4yNjwo8=/0x150:1600x1050/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/37575328/hello_maybe_not_kitty.0.0.jpeg", 
   student_id: 5
 )
 Capstone.create(
   name:"Dungeon Master Leveling", 
   description:"Dungeon Master Leveling", 
   url: "https://github.com/thk12205", 
-  screenshot:"", 
+  screenshot:"https://i.pinimg.com/236x/84/30/03/843003aa127f17c0cb5b20ee1b30e2be--care-bears.jpg", 
   student_id: 6
 )
 Capstone.create(name: "Chicago Live Music", 
   description: "see live music in Chicago", 
   url: "https://github.com/seanmilomaher", 
-  screenshot:"", 
+  screenshot:"https://vignette1.wikia.nocookie.net/carebears/images/c/c3/Gentle_Heart_M.png/revision/latest?cb=20121014030154", 
   student_id: 7
 )
 Capstone.create(
   name:"go natural", 
   description:"green resources", 
   url:"charlottemoche.github.io", 
-  screenshot:"", 
+  screenshot:"https://static.wikia.nocookie.net/carebears/images/1/1f/Basic_Fun%21_Bedtime_Bear.jpg/revision/latest/top-crop/width/220/height/220?cb=20200707123520", 
   student_id: 8
 )
 Capstone.create(
   name:"Post Stroke Health Monitoring", 
   description: "monitoring for those recovering from strokes", 
   url: "https://github.com/antoniorestivo", 
-  screenshot:"", 
+  screenshot:"https://1.bp.blogspot.com/-HIKVqfJB-Jc/Xw4cOXR0LcI/AAAAAAAAPmw/ZroSu759Z3sjlFMWb_dezVqENuhV0IMwgCLcBGAsYHQ/s1600/2020%2BBasic%2BFun%2BCheer%2Band%2BGrumpy.PNG", 
   student_id: 9
 )
 Capstone.create(
   name: "Pet Spot", 
   description: "pets", 
   url: "https://github.com/chrisrezac", 
-  screenshot: "", 
+  screenshot: "https://www.pluggedin.com/wp-content/uploads/2020/01/my-little-pony-friendship-is-magic-review-image-1024x587.jpg", 
   student_id: 10
 )
 Capstone.create(
   name: "Affirmations", 
   description: "affirmations", 
   url: "https://github.com/sarahrobinson-1235", 
-  screenshot: "", 
+  screenshot: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG2xstJlJfCwIa_-yAsAid4vtntd9pIs7tYg&usqp=CAU", 
   student_id: 11
 )
 Capstone.create(
   name:"Food Share", 
   description: "order and sell food", 
   url: "github.com/raebex/", 
-  screenshot: "", 
+  screenshot: "https://i.ytimg.com/vi/NkpghtuuHDs/maxresdefault.jpg", 
   student_id: 12
 )
 
