@@ -29,7 +29,7 @@ class Api::CapstonesController < ApplicationController
 
   def update
     @capstone = Capstone.find_by(id: params[:id])
-    if current_student.id == @capstone.id
+    if current_student.id == @capstone.student_id
       @capstone.name = params[:name] || @capstone.name
       @capstone.description = params[:description] || @capstone.description
       @capstone.url = params[:url] || @capstone.url
@@ -46,7 +46,7 @@ class Api::CapstonesController < ApplicationController
 
   def destroy
     @capstone = Capstone.find_by(id: params[:id])
-    if current_student.id == @capstone.id
+    if current_student.id == @capstone.student_id
       @capstone.destroy
       render json: {message: "Capstone successfully destroyed!"}
     else
