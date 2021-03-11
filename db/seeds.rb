@@ -442,7 +442,6 @@ Education.create(
   student_id: 12
   )
 
-
 Capstone.create(
   name:"Friends",
   description:"social app",
