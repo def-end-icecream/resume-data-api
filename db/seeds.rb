@@ -38,7 +38,6 @@ Student.create(
   short_bio: "Full stack web developer with a past life in labor and delivery/women's health nursing.",
   linkedin_url: "https://www.linkedin.com/in/mackenzieevans1/", 
   twitter_handle: "katyperry", 
-  personal_website_url: null, 
   resume_url: "https://www.linkedin.com/in/mackenzieevans1/", 
   github_url: "https://github.com/evansmackenzie", 
   image_url: "https://media-exp1.licdn.com/dms/image/C4D03AQHFXFvCXjyc0Q/profile-displayphoto-shrink_200_200/0/1607708328167?e=1620864000&v=beta&t=BipzboHis6CWTKdZm8peTZnxhxdfMXcZLSqHqsyQqmg", 
