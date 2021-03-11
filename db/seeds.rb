@@ -277,8 +277,74 @@ Experience.create(
   job_title: "Web Developer", 
   company_name: "Actualize", 
   details: "Build full-stack applications", 
+  student_id: 12
+)
+#EXTRA EXPERIENCE
+Experience.create(
+  start_date: "2014-01-01 00:00:00", 
+  end_date: "2020-01-01 00:00:00", 
+  job_title: "Web Developer", 
+  company_name: "Super Business Accounting", 
+  details: "Build full-stack applications for business", 
+  student_id: 1
+)
+Experience.create(
+  start_date: "2015-01-01 00:00:00", 
+  end_date: "2021-03-01 00:00:00", 
+  job_title: "Front End Developer", 
+  company_name: "Puppies United", 
+  details: "Creating Front End website for the most important copmany", 
+  student_id: 1
+)
+Experience.create(
+  start_date: "2012-01-01 00:00:00", 
+  end_date: "2019-01-01 00:00:00", 
+  job_title: "Back End Developer", 
+  company_name: "Rebel Alliance", 
+  details: "Secret Website for Imperial Unenthusiasts", 
+  student_id: 1
+)
+Experience.create(
+  start_date: "2017-02-01 00:00:00", 
+  end_date: "2021-02-01 00:00:00", 
+  job_title: "Fullstack Developer", 
+  company_name: "Code Co.", 
+  details: "Build full-stack applications", 
+  student_id: 2
+)
+Experience.create(
+  start_date: "2017-02-01 00:00:00", 
+  end_date: "2021-02-01 00:00:00", 
+  job_title: "Fullstack Developer", 
+  company_name: "Code Co.", 
+  details: "Build full-stack applications", 
+  student_id: 3
+)
+Experience.create(
+  start_date: "2017-02-01 00:00:00", 
+  end_date: "2021-02-01 00:00:00", 
+  job_title: "Fullstack Developer", 
+  company_name: "Code Co.", 
+  details: "Build full-stack applications", 
+  student_id: 5
+)
+Experience.create(
+  start_date: "2017-02-01 00:00:00", 
+  end_date: "2021-02-01 00:00:00", 
+  job_title: "Fullstack Developer", 
+  company_name: "Code Co.", 
+  details: "Build full-stack applications", 
+  student_id: 7
+)
+Experience.create(
+  start_date: "2017-02-01 00:00:00", 
+  end_date: "2021-02-01 00:00:00", 
+  job_title: "Fullstack Developer", 
+  company_name: "Code Co.", 
+  details: "Build full-stack applications", 
   student_id: 11
 )
+
 
 Education.create(
   start_date: "2017-09-01 00:00:00", 
