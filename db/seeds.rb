@@ -8,9 +8,9 @@ Student.create(
   short_bio: "As an adept web developer with experience in a consulting environment, I understand that being a developer means being in a constant state of learning. I’ve fixed broken code that I inherited, deployed cloud servers for the first time by reading documentation, and learned Salesforce to support a client who used it. I am eager to dive further into backend development and overcome new challenges.",
   linkedin_url: "https://linkedin.com/in/camores", 
   twitter_handle: "BarackObama", 
-  personal_website_url: "", 
+  personal_website_url: "https://amoresca.github.io/", 
   resume_url: "https://linkedin.com/in/camores", 
-  github_url: "https://github.com/davidcalhoun4?tab=repositories", 
+  github_url: "https://github.com/amoeresca", 
   image_url: "https://media-exp1.licdn.com/dms/image/C4E03AQHUGZ-q868W9A/profile-displayphoto-shrink_200_200/0/1572832092439?e=1620864000&v=beta&t=ZpD5706ZRVpQqajyMK_d4Ca-DGytu3JHDbwSK7wOt8c", 
   password: "password", 
   password_confirmation: "password"
@@ -183,96 +183,96 @@ Student.create(
 
 
 Experience.create(
-  start_date: "2016-01-01 00:00:00", 
-  end_date: "2021-01-01 00:00:00", 
+  start_date: "2016-01-01", 
+  end_date: "2021-01-01", 
   job_title: "Web Developer", 
   company_name: "Actualize", 
   details: "Build full-stack applications", 
   student_id: 1
 )
 Experience.create(
-  start_date: "2017-02-01 00:00:00", 
-  end_date: "2021-02-01 00:00:00", 
+  start_date: "2017-02-01", 
+  end_date: "2021-02-01", 
   job_title: "Web Developer", 
   company_name: "Actualize", 
   details: "Build full-stack applications", 
   student_id: 2
 )
 Experience.create(
-  start_date: "2018-03-01 00:00:00", 
-  end_date: "2021-03-01 00:00:00", 
+  start_date: "2018-03-01", 
+  end_date: "2021-03-01", 
   job_title: "Web Developer", 
   company_name: "Actualize", 
   details: "Build full-stack applications", 
   student_id: 3
 )
 Experience.create(
-  start_date: "2016-04-01 00:00:00", 
-  end_date: "2021-04-01 00:00:00", 
+  start_date: "2016-04-01", 
+  end_date: "2021-04-01", 
   job_title: "Web Developer", 
   company_name: "Actualize", 
   details: "Build full-stack applications", 
   student_id: 4
 )
 Experience.create(
-  start_date: "2017-05-01 00:00:00", 
-  end_date: "2021-05-01 00:00:00", 
+  start_date: "2017-05-01", 
+  end_date: "2021-05-01", 
   job_title: "Web Developer", 
   company_name: "Actualize", 
   details: "Build full-stack applications", 
   student_id: 5
 )
 Experience.create(
-  start_date: "2018-06-01 00:00:00", 
-  end_date: "2021-06-01 00:00:00", 
+  start_date: "2018-06-01", 
+  end_date: "2021-06-01", 
   job_title: "Web Developer", 
   company_name: "Actualize", 
   details: "Build full-stack applications", 
   student_id: 6
 )
 Experience.create(
-  start_date: "2019-07-01 00:00:00", 
-  end_date: "2021-07-01 00:00:00", 
+  start_date: "2019-07-01", 
+  end_date: "2021-07-01", 
   job_title: "Web Developer", 
   company_name: "Actualize", 
   details: "Build full-stack applications", 
   student_id: 7
 )
 Experience.create(
-  start_date: "2016-08-01 00:00:00", 
-  end_date: "2021-08-01 00:00:00", 
+  start_date: "2016-08-01", 
+  end_date: "2021-08-01", 
   job_title: "Web Developer", 
   company_name: "Actualize", 
   details: "Build full-stack applications", 
   student_id: 8
 )
 Experience.create(
-  start_date: "2017-09-01 00:00:00", 
-  end_date: "2021-09-01 00:00:00", 
+  start_date: "2017-09-01", 
+  end_date: "2021-09-01", 
   job_title: "Web Developer", 
   company_name: "Actualize", 
   details: "Build full-stack applications", 
   student_id: 9
 )
 Experience.create(
-  start_date: "2018-10-01 00:00:00", 
-  end_date: "2021-10-01 00:00:00", 
+  start_date: "2018-10-01", 
+  end_date: "2021-10-01", 
   job_title: "Web Developer", 
   company_name: "Actualize", 
   details: "Build full-stack applications", 
   student_id: 10
 )
 Experience.create(
-  start_date: "2017-11-01 00:00:00", 
-  end_date: "2021-11-01 00:00:00", 
+  start_date: "2017-11-01", 
+  end_date: "2021-11-01", 
   job_title: "Web Developer", 
   company_name: "Actualize", 
   details: "Build full-stack applications", 
   student_id: 11
 )
 Experience.create(
-  start_date: "2018-12-01 00:00:00", 
-  end_date: "2021-12-01 00:00:00", 
+  start_date: "2018-12-01", 
+  end_date: "2021-12-01", 
   job_title: "Web Developer", 
   company_name: "Actualize", 
   details: "Build full-stack applications", 
@@ -280,64 +280,64 @@ Experience.create(
 )
 #EXTRA EXPERIENCE
 Experience.create(
-  start_date: "2014-01-01 00:00:00", 
-  end_date: "2020-01-01 00:00:00", 
+  start_date: "2014-01-01", 
+  end_date: "2020-01-01", 
   job_title: "Web Developer", 
   company_name: "Super Business Accounting", 
   details: "Build full-stack applications for business", 
   student_id: 1
 )
 Experience.create(
-  start_date: "2015-01-01 00:00:00", 
-  end_date: "2021-03-01 00:00:00", 
+  start_date: "2015-01-01", 
+  end_date: "2021-03-01", 
   job_title: "Front End Developer", 
   company_name: "Puppies United", 
   details: "Creating Front End website for the most important copmany", 
   student_id: 1
 )
 Experience.create(
-  start_date: "2012-01-01 00:00:00", 
-  end_date: "2019-01-01 00:00:00", 
+  start_date: "2012-01-01", 
+  end_date: "2019-01-01", 
   job_title: "Back End Developer", 
   company_name: "Rebel Alliance", 
   details: "Secret Website for Imperial Unenthusiasts", 
   student_id: 1
 )
 Experience.create(
-  start_date: "2017-02-01 00:00:00", 
-  end_date: "2021-02-01 00:00:00", 
+  start_date: "2017-02-01", 
+  end_date: "2021-02-01", 
   job_title: "Fullstack Developer", 
   company_name: "Code Co.", 
   details: "Build full-stack applications", 
   student_id: 2
 )
 Experience.create(
-  start_date: "2017-02-01 00:00:00", 
-  end_date: "2021-02-01 00:00:00", 
+  start_date: "2017-02-01", 
+  end_date: "2021-02-01", 
   job_title: "Fullstack Developer", 
   company_name: "Code Co.", 
   details: "Build full-stack applications", 
   student_id: 3
 )
 Experience.create(
-  start_date: "2017-02-01 00:00:00", 
-  end_date: "2021-02-01 00:00:00", 
+  start_date: "2017-02-01", 
+  end_date: "2021-02-01", 
   job_title: "Fullstack Developer", 
   company_name: "Code Co.", 
   details: "Build full-stack applications", 
   student_id: 5
 )
 Experience.create(
-  start_date: "2017-02-01 00:00:00", 
-  end_date: "2021-02-01 00:00:00", 
+  start_date: "2017-02-01", 
+  end_date: "2021-02-01", 
   job_title: "Fullstack Developer", 
   company_name: "Code Co.", 
   details: "Build full-stack applications", 
   student_id: 7
 )
 Experience.create(
-  start_date: "2017-02-01 00:00:00", 
-  end_date: "2021-02-01 00:00:00", 
+  start_date: "2017-02-01", 
+  end_date: "2021-02-01", 
   job_title: "Fullstack Developer", 
   company_name: "Code Co.", 
   details: "Build full-stack applications", 
@@ -346,96 +346,96 @@ Experience.create(
 
 
 Education.create(
-  start_date: "2017-09-01 00:00:00", 
-  end_date: "2021-09-01 00:00:00", 
+  start_date: "2017-09-01", 
+  end_date: "2021-09-01", 
   degree: "Computer Science", 
   university_name: "Actualize", 
   details: "Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap", 
   student_id: 1
 )
 Education.create(
-  start_date: "2018-10-01 00:00:00", 
-  end_date: "2021-10-01 00:00:00", 
+  start_date: "2018-10-01", 
+  end_date: "2021-10-01", 
   degree: "Computer Science", 
   university_name: "Actualize", 
   details: "Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap", 
   student_id: 2
 )
 Education.create(
-  start_date: "2017-11-01 00:00:00", 
-  end_date: "2021-11-01 00:00:00", 
+  start_date: "2017-11-01", 
+  end_date: "2021-11-01", 
   degree: "Computer Science", 
   university_name: "Actualize", 
   details: "Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap", 
   student_id: 3
 )
 Education.create(
-  start_date: "2018-12-01 00:00:00", 
-  end_date: "2021-12-01 00:00:00", 
+  start_date: "2018-12-01", 
+  end_date: "2021-12-01", 
   degree: "Computer Science", 
   university_name: "Actualize", 
   details: "Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap", 
   student_id: 4
 )
 Education.create(
-  start_date: "2016-01-01 00:00:00", 
-  end_date: "2021-01-01 00:00:00", 
+  start_date: "2016-01-01", 
+  end_date: "2021-01-01", 
   degree: "Computer Science", 
   university_name: "Actualize", 
   details: "Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap", 
   student_id: 5
 )
 Education.create(
-  start_date: "2017-02-01 00:00:00", 
-  end_date: "2021-02-01 00:00:00", 
+  start_date: "2017-02-01", 
+  end_date: "2021-02-01", 
   degree: "Computer Science", 
   university_name: "Actualize", 
   details: "Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap", 
   student_id: 6
 )
 Education.create(
-  start_date: "2018-03-01 00:00:00", 
-  end_date: "2021-03-01 00:00:00", 
+  start_date: "2018-03-01", 
+  end_date: "2021-03-01", 
   degree: "Computer Science", 
   university_name: "Actualize", 
   details: "Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap", 
   student_id: 7
 )
 Education.create(
-  start_date: "2016-04-01 00:00:00", 
-  end_date: "2021-04-01 00:00:00", 
+  start_date: "2016-04-01", 
+  end_date: "2021-04-01", 
   degree: "Computer Science", 
   university_name: "Actualize", 
   details: "Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap", 
   student_id: 8
 )
 Education.create(
-  start_date: "2017-05-01 00:00:00", 
-  end_date: "2021-05-01 00:00:00", 
+  start_date: "2017-05-01", 
+  end_date: "2021-05-01", 
   degree: "Computer Science", 
   university_name: "Actualize", 
   details: "Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap", 
   student_id: 9
 )
 Education.create(
-  start_date: "2018-06-01 00:00:00", 
-  end_date: "2021-06-01 00:00:00", 
+  start_date: "2018-06-01", 
+  end_date: "2021-06-01", 
   degree: "Computer Science", 
   university_name: "Actualize", 
   details: "Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap", 
   student_id: 10
   )
 Education.create(
-  start_date: "2019-07-01 00:00:00", 
-  end_date: "2021-07-01 00:00:00", 
+  start_date: "2019-07-01", 
+  end_date: "2021-07-01", 
   degree: "Computer Science", 
   university_name: "Actualize", 
   details: "Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap", 
   student_id: 11
   )
 Education.create(
-  start_date: "2016-08-01 00:00:00", 
-  end_date: "2021-08-01 00:00:00", 
+  start_date: "2016-08-01", 
+  end_date: "2021-08-01", 
   degree: "Computer Science", 
   university_name: "Actualize", 
   details: "Individual and group full-stack projects in Rails, Ruby, JS, Vue, and Bootstrap", 
