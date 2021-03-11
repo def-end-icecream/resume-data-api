@@ -176,7 +176,7 @@ Student.create(
   personal_website_url: "https://github.com/raebex.github.io", 
   resume_url: "https://www.linkedin.com/in/raebex/", 
   github_url: "https://github.com/raebex/", 
-  image_url: "https://media-exp1.licdn.com/dms/image/C4E35AQG-yiN3HqVf1w/profile-framedphoto-shrink_200_200/0/1610661381473?e=1615320000&v=beta&t=tmv7dOGaAWaWMSoq-07bHeLI0maftceDIvFWitgQhk0",
+  image_url: "https://ca.slack-edge.com/T01FA6PCN0J-U01FPEBFQ2E-823a44b5cb72-512",
   password: "password", 
   password_confirmation: "password"
 )
