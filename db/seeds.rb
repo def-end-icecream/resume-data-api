@@ -463,50 +463,338 @@ Capstone.create(
 )
 
 Skill.create(
-  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby", 
   student_id: 1
 )
 Skill.create(
-  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby", 
   student_id: 2
 )
 Skill.create(
-  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby", 
   student_id: 3
 )
 Skill.create(
-  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby", 
   student_id: 4
 )
 Skill.create(
-  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby", 
   student_id: 5
 )
 Skill.create(
-  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby", 
   student_id: 6
 )
 Skill.create(
-  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby", 
   student_id: 7
 )
 Skill.create(
-  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby", 
   student_id: 8
 )
 Skill.create(
-  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby", 
   student_id: 9
 )
 Skill.create(
-  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby", 
   student_id: 10
 )
 Skill.create(
-  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby", 
   student_id: 11
 )
 Skill.create(
-  name: "Ruby, Rails, JavaScript, Vue, Bootstrap, CSS, HTML", 
+  name: "Ruby", 
+  student_id: 12
+)
+Skill.create(
+  name: "Rails", 
+  student_id: 1
+)
+Skill.create(
+  name: "Rails", 
+  student_id: 2
+)
+Skill.create(
+  name: "Rails", 
+  student_id: 3
+)
+Skill.create(
+  name: "Rails", 
+  student_id: 4
+)
+Skill.create(
+  name: "Rails", 
+  student_id: 5
+)
+Skill.create(
+  name: "Rails", 
+  student_id: 6
+)
+Skill.create(
+  name: "Rails", 
+  student_id: 7
+)
+Skill.create(
+  name: "Rails", 
+  student_id: 8
+)
+Skill.create(
+  name: "Rails", 
+  student_id: 9
+)
+Skill.create(
+  name: "Rails", 
+  student_id: 10
+)
+Skill.create(
+  name: "Rails", 
+  student_id: 11
+)
+Skill.create(
+  name: "Rails", 
+  student_id: 12
+)
+Skill.create(
+  name: "JavaScript", 
+  student_id: 1
+)
+Skill.create(
+  name: "JavaScript", 
+  student_id: 2
+)
+Skill.create(
+  name: "JavaScript", 
+  student_id: 3
+)
+Skill.create(
+  name: "JavaScript", 
+  student_id: 4
+)
+Skill.create(
+  name: "JavaScript", 
+  student_id: 5
+)
+Skill.create(
+  name: "JavaScript", 
+  student_id: 6
+)
+Skill.create(
+  name: "JavaScript", 
+  student_id: 7
+)
+Skill.create(
+  name: "JavaScript", 
+  student_id: 8
+)
+Skill.create(
+  name: "JavaScript", 
+  student_id: 9
+)
+Skill.create(
+  name: "JavaScript", 
+  student_id: 10
+)
+Skill.create(
+  name: "JavaScript", 
+  student_id: 11
+)
+Skill.create(
+  name: "JavaScript", 
+  student_id: 12
+)
+Skill.create(
+  name: "Vue", 
+  student_id: 1
+)
+Skill.create(
+  name: "Vue", 
+  student_id: 2
+)
+Skill.create(
+  name: "Vue", 
+  student_id: 3
+)
+Skill.create(
+  name: "Vue", 
+  student_id: 4
+)
+Skill.create(
+  name: "Vue", 
+  student_id: 5
+)
+Skill.create(
+  name: "Vue", 
+  student_id: 6
+)
+Skill.create(
+  name: "Vue", 
+  student_id: 7
+)
+Skill.create(
+  name: "Vue", 
+  student_id: 8
+)
+Skill.create(
+  name: "Vue", 
+  student_id: 9
+)
+Skill.create(
+  name: "Vue", 
+  student_id: 10
+)
+Skill.create(
+  name: "Vue", 
+  student_id: 11
+)
+Skill.create(
+  name: "Vue", 
+  student_id: 12
+)
+Skill.create(
+  name: "Bootstrap", 
+  student_id: 1
+)
+Skill.create(
+  name: "Bootstrap", 
+  student_id: 2
+)
+Skill.create(
+  name: "Bootstrap", 
+  student_id: 3
+)
+Skill.create(
+  name: "Bootstrap", 
+  student_id: 4
+)
+Skill.create(
+  name: "Bootstrap", 
+  student_id: 5
+)
+Skill.create(
+  name: "Bootstrap", 
+  student_id: 6
+)
+Skill.create(
+  name: "Bootstrap", 
+  student_id: 7
+)
+Skill.create(
+  name: "Bootstrap", 
+  student_id: 8
+)
+Skill.create(
+  name: "Bootstrap", 
+  student_id: 9
+)
+Skill.create(
+  name: "Bootstrap", 
+  student_id: 10
+)
+Skill.create(
+  name: "Bootstrap", 
+  student_id: 11
+)
+Skill.create(
+  name: "Bootstrap", 
+  student_id: 12
+)
+Skill.create(
+  name: "CSS", 
+  student_id: 1
+)
+Skill.create(
+  name: "CSS", 
+  student_id: 2
+)
+Skill.create(
+  name: "CSS", 
+  student_id: 3
+)
+Skill.create(
+  name: "CSS", 
+  student_id: 4
+)
+Skill.create(
+  name: "CSS", 
+  student_id: 5
+)
+Skill.create(
+  name: "CSS", 
+  student_id: 6
+)
+Skill.create(
+  name: "CSS", 
+  student_id: 7
+)
+Skill.create(
+  name: "CSS", 
+  student_id: 8
+)
+Skill.create(
+  name: "CSS", 
+  student_id: 9
+)
+Skill.create(
+  name: "CSS", 
+  student_id: 10
+)
+Skill.create(
+  name: "CSS", 
+  student_id: 11
+)
+Skill.create(
+  name: "CSS", 
+  student_id: 12
+)
+Skill.create(
+  name: "HTML", 
+  student_id: 1
+)
+Skill.create(
+  name: "HTML", 
+  student_id: 2
+)
+Skill.create(
+  name: "HTML", 
+  student_id: 3
+)
+Skill.create(
+  name: "HTML", 
+  student_id: 4
+)
+Skill.create(
+  name: "HTML", 
+  student_id: 5
+)
+Skill.create(
+  name: "HTML", 
+  student_id: 6
+)
+Skill.create(
+  name: "HTML", 
+  student_id: 7
+)
+Skill.create(
+  name: "HTML", 
+  student_id: 8
+)
+Skill.create(
+  name: "HTML", 
+  student_id: 9
+)
+Skill.create(
+  name: "HTML", 
+  student_id: 10
+)
+Skill.create(
+  name: "HTML", 
+  student_id: 11
+)
+Skill.create(
+  name: "HTML", 
   student_id: 12
 )
