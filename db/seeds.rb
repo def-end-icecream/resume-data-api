@@ -445,7 +445,7 @@ Education.create(
 Capstone.create(
   name:"Friends",
   description:"social app",
-  url:"https://github.com/davidcalhoun4?tab=repositories", 
+  url:"https://github.com/amoeresca", 
   screenshot:"https://cdn.shopify.com/s/files/1/0054/4371/5170/products/FiGPiN_360HelloKittySANRIOPIN.png?v=1584657837",
   student_id: 1
 )
@@ -484,7 +484,8 @@ Capstone.create(
   screenshot:"https://i.pinimg.com/236x/84/30/03/843003aa127f17c0cb5b20ee1b30e2be--care-bears.jpg", 
   student_id: 6
 )
-Capstone.create(name: "Chicago Live Music", 
+Capstone.create(
+  name: "Chicago Live Music", 
   description: "see live music in Chicago", 
   url: "https://github.com/seanmilomaher", 
   screenshot:"https://vignette1.wikia.nocookie.net/carebears/images/c/c3/Gentle_Heart_M.png/revision/latest?cb=20121014030154", 
@@ -525,6 +526,33 @@ Capstone.create(
   screenshot: "https://i.ytimg.com/vi/NkpghtuuHDs/maxresdefault.jpg", 
   student_id: 12
 )
+Capstone.create(
+  name:"LFG",
+  description:"app to help Dungeon Masters find playgroups and vice versa",
+  url:"https://github.com/amoeresca", 
+  screenshot:"https://leinadrengaw.files.wordpress.com/2017/04/dnd.jpg?w=1200",
+  student_id: 1
+)
+Capstone.create(
+  name:"JokesForFolks",
+  description:"app that helps aspiring comedians find venues to get their start",
+  url:"https://github.com/davidcalhoun4", 
+  screenshot:"https://cdn.mos.cms.futurecdn.net/i26qpaxZhVC28XRTJWafQS-320-80.jpeg",
+  student_id: 2
+)
+Capstone.create(
+  name:"WalkieTalkies",
+  description:"app that helps people organize walking groups",
+  url:"https://github.com/evansmackenzie", 
+  screenshot:"https://www.gannett-cdn.com/media/2020/04/20/USATODAY/usatsports/gettyimages-104732257.jpg?width=2560",
+  student_id: 3
+)
+Capstone.create(
+  name:"SmoresTours",
+  description:"app that helps people find campgrounds to camp in",
+  url:"https://github.com/ngencokamin", 
+  screenshot:"https://media.timeout.com/images/105658195/image.jpg",
+  student_id: 4
 
 Skill.create(
   name: "Ruby", 
