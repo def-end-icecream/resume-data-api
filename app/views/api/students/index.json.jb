@@ -1,3 +1,7 @@
 @students.map do |student|
+  student_hash = 
   render partial: "student.json.jb", locals: { student: student }
+  student_hash[:experiences] = student.experiences.map do |experience| render partial: "api/experiences/experience.json.jb", locals: { experience: experience }
+  end
+  student_hash
 end
